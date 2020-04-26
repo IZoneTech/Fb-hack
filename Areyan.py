@@ -86,23 +86,23 @@ print  """
 \033[1;91m┃┗━┛┃┏┓┏┫┏━━┛┗┓┏┛┃┗━┛┃┃┗┓┃┃
 \033[1;91m┃┏━┓┃┃┃┗┫┗━━┓╋┃┃╋┃┏━┓┃┃╋┃┃┃
 \033[1;91m┗┛╋┗┻┛┗━┻━━━┛╋┗┛╋┗┛╋┗┻┛╋┗━┛
-\033[1;91m•◈•﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌•◈•\033[1;96mID:Areyan,Passward:Emon\033[1;91m•◈•﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌•◈•"""
+\033[1;91m﹌﹌﹌﹌﹌﹌﹌﹌﹌\033[1;96mID:Areyan\033[1;91m﹌﹌﹌﹌﹌﹌﹌﹌﹌﹌""
 jalan('\033[1;96m H E Y  G U Y S ')
 jalan("\033[1;96mT H I S   I S   A R E Y A N ")
 jalan('\033[1;96mF R O M  B A N G L A D E S H')
 jalan('\033[1;96mU N L I M I T E D   C L O N E  A N Y   C O U N T R Y   S P E C I A L I    B A N G L A D E S H I   I D ')
 jalan('\033[1;96mP L E A S E   N O T E  T H I S   T O O L S   C A N   U S E  O N L Y   A R E Y A N   A N D  S P E C I A L  G U S T S ')
 jalan('\033[1;96m F O R  G E T  U S E R  N A M E  A N D  P A S S W A R D   P L E A S E  C O N T U C T   M E')
-print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;96m🄰 🅁 🄴 🅈 🄰 🄽    🄰 🄵 🄽 🄰 🄽\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•👀•"
+print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;96mPLEASE LOGIN\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•👀•"
 
 CorrectUsername = "Areyan"
 CorrectPassword = "Emon"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[♦] \x1b[1;96mENTER YOUR ID\x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[♦] \x1b[1;96mENTER YOUR ID\x1b[1;96m>> ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[♦] \x1b[1;96mENTER YOUR PASWARD\x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[♦] \x1b[1;96mENTER YOUR PASWARD\x1b[1;96m>> ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
